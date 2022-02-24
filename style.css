@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+main{
+    height: 100vh;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main button{
+    border-radius: 10px;
+    padding: 25px;
+    background-color: rgb(131, 88, 233);
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+main button:hover{
+    background-color: rgb(83, 49, 235);
+}
+
+.viewport-secondary{
+    height: 100vh;
+    width: 100vw;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.visibility{
+    visibility: hidden;
+}
+
+.viewport-secondary span{
+    border-radius: 10px;
+    padding: 25px;
+    background-color: rgb(177, 138, 55);
+    border: none;
+    color: whitesmoke ;
+    font-weight: bold;
+}
